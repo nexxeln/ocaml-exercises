@@ -3,4 +3,4 @@
 let rec nth n list =
   match list with
   | [] -> None
-  | h :: t -> if n = 0 then Some h else nth (n - 1) t;;
+  | h :: t -> if n = 0 then Some h else nth (n - 1) t
